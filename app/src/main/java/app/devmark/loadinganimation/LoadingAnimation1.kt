@@ -63,8 +63,8 @@ fun loadingAnimation1(
         }
     }
 
-    val  circleValues = circles.map { it.value }
-    val  distance = with(LocalDensity.current) {travelDistance.toPx()}
+    val circleValues = circles.map { it.value }
+    val distance = with(LocalDensity.current) {travelDistance.toPx()}
     val lastCircle = circleValues.size -1
 
     Row(modifier = Modifier) {
